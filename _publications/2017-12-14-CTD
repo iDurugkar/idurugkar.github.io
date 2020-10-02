@@ -1,0 +1,16 @@
+---
+title: "TD Learning with Constrained Gradients"
+collection: publications
+permalink: /publication/2017-12-14-CTD
+excerpt: 'Constraining the gradient used to update parameters of a Q-function to stabilize learning'
+date: 2017-12-14
+venue: 'NeurIPS Deep RL Workshop'
+paperurl: 'https://idurugkar.github.com/files/ConstrainedTD.pdf'
+citation: 'Ishan Durugkar, Peter Stone. (2017). &quot;TD Learning with Constrained Gradients&quot;. Deep Reinforcement Learning Workshop, Neural Information Processing Systems 2017.'
+---
+
+<a href='https://idurugkar.github.com/files/ConstrainedTD.pdf'>Download paper here</a>
+
+Constraining the gradient used to update parameters of a Q-function to stabilize Q-learning. 
+
+Recommended citation: Ishan Durugkar, Peter Stone. (2017). "TD Learning with Constrained Gradients". Deep Reinforcement Learning Workshop, Neural Information Processing Systems 2017.
