@@ -1,0 +1,16 @@
+---
+title: "Multi-Preference Actor Critic"
+collection: publications
+permalink: /publication/2019-4-5-MPAC
+excerpt: 'Using multiple auxiliary tasks as soft preferences on the policy while learning'
+date: 2019-4-5
+venue: 'ArXiv'
+paperurl: 'https://idurugkar.github.com/files/MultiPref_ActorCritic.pdf'
+citation: 'Ishan Durugkar, Matthew Hausknecht, Adith Swaminathan, Patrick MacAlpine. (2019). &quot;Multi-Preference Actor Critic&quot;. ArXiv Preprint 2019.'
+---
+
+<a href='https://idurugkar.github.com/files/MultiPref_ActorCritic.pdf'>Download paper here</a>
+
+Using multiple auxiliary tasks as soft preferences on the policy while learning. 
+
+Recommended citation: Ishan Durugkar, Matthew Hausknecht, Adith Swaminathan, Patrick MacAlpine. (2019). "Multi-Preference Actor Critic". ArXiv Preprint 2019.
