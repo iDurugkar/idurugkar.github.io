@@ -7,9 +7,8 @@ redirect_from:
   - /thesis.html
 ---
 
-# Ishan Durugkar's Thesis
 
-## Estimation and Control of Visitation Distributions for Reinforcement Learning
+## Title: Estimation and Control of Visitation Distributions for Reinforcement Learning
 
 ### Thesis Committee:
 
