@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Student at the Learning Agents Research Group [LARG](https://www.cs.utexas.edu/~pstone/students.shtml) advised by [Prof. Peter Stone](https://www.cs.utexas.edu/~pstone/index.shtml).
+Currently I am a Research Scientist at [Sony AI](https://ai.sony/) working with the Game AI team to bring reinforcement learning agents to games such as Gran Turismo.
+
+I completed my PhD at the Learning Agents Research Group [LARG](https://www.cs.utexas.edu/~pstone/students.shtml) advised by [Prof. Peter Stone](https://www.cs.utexas.edu/~pstone/index.shtml).
 My research focuses on the sub-field of Machine Learning called Reinforcement Learning (RL).
-My doctoral thesis will focus on improving RL algorithms using the estimation and control of the visitation distributions induced by
+My doctoral thesis focused on improving RL algorithms using the estimation and control of the visitation distributions induced by
 reinforcement learning agents, such as the [distribution of states they visit](https://arxiv.org/abs/2105.13345),
 or the [distribution of transitions they experience](https://arxiv.org/abs/2008.01594).
 
