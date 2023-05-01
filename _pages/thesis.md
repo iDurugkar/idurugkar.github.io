@@ -35,6 +35,6 @@ The thesis will be published by the University of Texas library in a few months.
 
 ### Thesis Defense
 
-You can access the slides of my thesis defense [here](cs.utexas.edu/~ishand/Ishan_Durugkar_Defense_Presentation.pdf)
+You can access the slides of my thesis defense [here](/files/Ishan_Durugkar_Defense_Presentation.pdf)
 
 
