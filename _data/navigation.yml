@@ -1,28 +1,13 @@
-# main links links
+# main navigation
 main:
   - title: "publications"
     url: /publications/
 
-  - title: "thesis"
-    url: /thesis/
+  - title: "research"
+    url: /research/
 
-#   - title: "Talks"
-#     url: /talks/    
+  - title: "blog"
+    url: /blog/
 
-#   - title: "Teaching"
-#     url: /teaching/    
-    
-#   - title: "Portfolio"
-#     url: /portfolio/
-        
-#   - title: "Blog Posts"
-#     url: /year-archive/
-    
   - title: "CV"
     url: /files/idurugkar_cv_2022_long.pdf
-  
-  - title: "RLRG"
-    url: https://www.cs.utexas.edu/~rlrg/
-    
-#   - title: "Guide"
-#     url: /markdown/

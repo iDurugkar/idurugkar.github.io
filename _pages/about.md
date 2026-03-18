@@ -2,40 +2,17 @@
 permalink: /
 title: "Ishan Durugkar"
 excerpt: "About me"
-author_profile: true
-redirect_from: 
+layout: home
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Currently I am a Research Scientist at [Sony AI](https://ai.sony/) working with the Game AI team to bring reinforcement learning agents to games such as Gran Turismo.
+I'm a Research Scientist at [Sony AI](https://ai.sony/) on the Game AI team, working on bringing reinforcement learning agents to games like Gran Turismo.
 
-I completed my PhD at the Learning Agents Research Group [LARG](https://www.cs.utexas.edu/~pstone/students.shtml) advised by [Prof. Peter Stone](https://www.cs.utexas.edu/~pstone/index.shtml).
-My research focuses on the sub-field of Machine Learning called Reinforcement Learning (RL).
-My doctoral thesis focused on improving RL algorithms using the estimation and control of the visitation distributions induced by
-reinforcement learning agents, such as the [distribution of states they visit](https://arxiv.org/abs/2105.13345),
-or the [distribution of transitions they experience](https://arxiv.org/abs/2008.01594).
+I completed my PhD at the [Learning Agents Research Group (LARG)](https://www.cs.utexas.edu/~pstone/students.shtml) at UT Austin, advised by [Prof. Peter Stone](https://www.cs.utexas.edu/~pstone/index.shtml). My doctoral research focused on improving RL algorithms through the estimation and control of visitation distributions — studying [what states agents visit](https://arxiv.org/abs/2105.13345) and [what transitions they experience](https://arxiv.org/abs/2008.01594).
 
-I have interned at DeepMind (Summer 2021) with [Volodymyr Mnih](http://www.cs.toronto.edu/~vmnih/),
-and Microsoft Research (Summer 2018) with [Matthew Hausknecht](https://mhauskn.github.io/)
-and [Adith Swaminathan](https://www.microsoft.com/en-us/research/people/adswamin/).
+Before my PhD, I was a Master's student at [UMass Amherst](https://www.cics.umass.edu/) working with [Sridhar Mahadevan](https://people.cs.umass.edu/~mahadeva/Site/About_Me.html) on deep learning and deep RL. I've also interned at [DeepMind](https://www.deepmind.com/) (2021) with [Volodymyr Mnih](http://www.cs.toronto.edu/~vmnih/) and [Microsoft Research](https://www.microsoft.com/en-us/research/) (2018) with [Matthew Hausknecht](https://mhauskn.github.io/) and [Adith Swaminathan](https://www.microsoft.com/en-us/research/people/adswamin/).
 
-Apart from the above highlights, I have worked on a variety of projects that looks at different aspects of the RL problem.
-Some of these directions that I have worked on are optimization perspectives of TD learning,
-considering agent preferences in multi-agent RL,
-using adversarial techniques for transfering policies from simulation to real robots,
-and some applications of RL (for example, learning a policy to navigate knowledge bases).
-Take a look at my [Publications](https://idurugkar.github.io/publications/) page for an up to date list of my papers.
-
-I also coordinate the weekly [RL Reading Group](https://www.cs.utexas.edu/~rlrg).
-Contact me in case you are interested in joining in our discussions.
-
-Finally, I also participate in the RoboCup Standard Platform League as part of the UT Austin Villa team.
-Here I focus on working with real robots.
-Apart from trying to get research like sim-to-real transfer applicable practically in this competition,
-this experience has helped me really understand robotics systems hands on,
-along with multi-robot communication and coordination.
-
-Previously, I have been a Master's student at [UMass Amherst](https://www.cics.umass.edu/)
-and have worked with [Sridhar Mahadevan](https://people.cs.umass.edu/~mahadeva/Site/About_Me.html)
-at the [Autonomous Learning Lab](http://www-all.cs.umass.edu/) on both Deep Learning and Deep RL projects.
+My broader research interests span multiagent RL, robotics, and sim-to-real transfer. I also help coordinate the weekly [RL Reading Group](https://www.cs.utexas.edu/~rlrg) at UT Austin.
