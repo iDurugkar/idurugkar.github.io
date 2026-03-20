@@ -4,52 +4,75 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal academic website for Ishan Durugkar (Research Scientist at Sony AI), built with Jekyll using a customized fork of the [academicpages](https://github.com/academicpages/academicpages.github.io) template (based on Minimal Mistakes). Deployed to GitHub Pages at `https://idurugkar.github.io`.
+Personal academic website for Ishan Durugkar (Research Scientist at Sony AI), built with **Zola** using the **Apollo** theme. Deployed to GitHub Pages at `https://idurugkar.github.io` via GitHub Actions.
+
+- Theme: [Apollo](https://github.com/not-matthias/apollo) (git submodule at `themes/apollo/`)
+- Framework: [Zola](https://www.getzola.org/) static site generator (Rust)
 
 ## Commands
 
 ### Local Development
 ```bash
-bundle install                        # Install Ruby dependencies
-bundle exec jekyll liveserve          # Serve locally at localhost:4000 with live reload
-bundle exec jekyll serve --config _config.yml,_config.dev.yml  # Serve with dev config
-```
-
-### JavaScript Assets
-```bash
-npm install                           # Install Node.js dependencies
-npm run build:js                      # Minify JavaScript files
-npm run watch:js                      # Watch and rebuild JS on changes
+zola serve          # Serve locally at http://127.0.0.1:1111 with live reload
+zola build          # Build to public/
 ```
 
 ## Architecture
 
-### Content Collections
-- `_pages/` — Main site pages (about, publications, CV, thesis, talks)
-- `_publications/` — Individual publication markdown files with YAML frontmatter
-- `_talks/` — Talk/presentation entries
-- `_teaching/` — Teaching materials
+### Content
+- `content/_index.md` — Homepage (bio)
+- `content/research.md` — Research areas page
+- `content/thesis.md` — PhD thesis page
+- `content/publications/_index.md` — Publications listing (uses custom template)
+- `content/publications/*.md` — Individual publication entries
+- `content/blog/_index.md` — Blog/writing section
+- `content/blog/*.md` — Individual blog posts (LaTeX via MathJax, enabled globally)
 
 ### Templates & Styling
-- `_layouts/` — HTML layout templates (Liquid templating)
-- `_includes/` — Reusable template partials
-- `_sass/` — Modular SCSS stylesheets (18 files)
+- `templates/index.html` — Homepage override (renders bio only, no post list)
+- `templates/publications.html` — Custom publications listing template
+- `static/custom.css` — Style overrides (publications, bio photo, research areas)
+- `themes/apollo/` — Apollo theme (do not edit; override via root `templates/`)
 
 ### Configuration
-- `_config.yml` — Main Jekyll config: site metadata, author profile, social links, plugins, collection definitions, layout defaults
-- `_config.dev.yml` — Dev overrides: sets `url: http://localhost:4000`, disables analytics, expands SASS output
-- `_data/navigation.yml` — Controls which pages appear in the nav menu
-- `_data/ui-text.yml` — UI string overrides
+- `config.toml` — Main Zola config: site metadata, nav menu, social links, theme settings
+  - `[extra].theme = "toggle"` — light/dark toggle
+  - `[extra].mathjax = true` — MathJax enabled globally (for blog posts with LaTeX)
+  - `[extra].menu` — nav items (publications, research, blog, cv)
+  - `[extra].socials` — social icons (github, twitter, google-scholar)
 
-### Bulk Content Generation
-`markdown_generator/` contains Python/Jupyter scripts to generate markdown files from TSV data:
-- `publications.tsv` + `publications.py` → `_publications/*.md`
-- `talks.tsv` + `talks.py` → `_talks/*.md`
+### Static Assets
+- `static/images/` — Images (profile photo, etc.)
+- `static/files/` — PDFs (CV, papers)
+- `static/custom.css` — Loaded via `[extra].stylesheets`
 
-Run these scripts when adding multiple publications or talks at once instead of creating individual markdown files manually.
+### Deployment
+- `.github/workflows/deploy.yml` — Builds with Zola and deploys to GitHub Pages via Actions
+- Requires GitHub Pages source set to "GitHub Actions" in repo settings
 
-### Navigation
-Pages are enabled/disabled in `_data/navigation.yml`. Talks, Teaching, Portfolio, and Blog are currently commented out.
+### Publication Frontmatter
+Each `content/publications/*.md` uses TOML frontmatter:
+```toml
++++
+title = "Paper Title"
+date = 2021-10-18
+description = "One-line excerpt shown in the publications list"
 
-### Publication/Talk Frontmatter
-Each `_publications/*.md` file uses YAML frontmatter with keys like `title`, `date`, `venue`, `paperurl`, `citation`. See existing files for the expected format.
+[extra]
+venue = "NeurIPS 2021"
+paperurl = "https://arxiv.org/abs/..."
++++
+```
+
+### Blog Post Frontmatter
+```toml
++++
+title = "Post Title"
+date = 2024-01-15
+description = "Brief summary"
+[taxonomies]
+tags = ["reinforcement-learning"]
++++
+
+Use `$inline math$` and `$$display math$$` — MathJax renders both.
+```

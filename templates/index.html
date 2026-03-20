@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as post_macros %}
+
+{% block main_content %}
+    {{ post_macros::page_header(title=section.title) }}
+
+    {% if section.content %}
+        <div class="home-content">
+            {{ section.content | safe }}
+        </div>
+    {% endif %}
+{% endblock main_content %}

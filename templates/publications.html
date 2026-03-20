@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as post_macros %}
+
+{% block main_content %}
+    {{ post_macros::page_header(title=section.title) }}
+
+    {% if section.content %}
+        <div class="section-content">
+            {{ section.content | safe }}
+        </div>
+    {% endif %}
+
+    <main class="pub-list">
+        {% set sorted_pages = section.pages | sort(attribute="date") | reverse %}
+        {% for page in sorted_pages %}
+        <div class="pub-entry">
+            <div class="pub-title">
+                {% if page.extra.paperurl %}
+                    <a href="{{ page.extra.paperurl }}">{{ page.title }}</a>
+                {% else %}
+                    {{ page.title }}
+                {% endif %}
+            </div>
+            <div class="pub-meta">{{ page.extra.venue }} &middot; {{ page.date | date(format="%Y") }}</div>
+            {% if page.description %}
+                <div class="pub-desc">{{ page.description }}</div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </main>
+{% endblock main_content %}

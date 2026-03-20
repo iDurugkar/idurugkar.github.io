@@ -1,0 +1,67 @@
+/* ── Bio photo on homepage ── */
+.bio-photo {
+    float: right;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 0 1.5em 2em;
+    display: block;
+}
+
+.home-content {
+    max-width: 70ch;
+}
+
+/* ── Publications list ── */
+.pub-list {
+    margin-top: 1.25em;
+}
+
+.pub-entry {
+    margin-bottom: 1.75em;
+    padding-bottom: 1.75em;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.pub-entry:last-child {
+    border-bottom: none;
+}
+
+.pub-title {
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.4;
+    margin-bottom: 0.3em;
+}
+
+.pub-title a {
+    color: var(--text-0);
+    text-decoration: none;
+}
+
+.pub-title a:hover {
+    color: var(--primary-color);
+}
+
+.pub-meta {
+    font-size: 0.85em;
+    color: var(--text-1);
+    margin-bottom: 0.2em;
+}
+
+.pub-desc {
+    font-size: 0.85em;
+    color: var(--text-2);
+    font-style: italic;
+    margin-top: 0.2em;
+}
+
+/* ── Research areas ── */
+.research-area {
+    margin-bottom: 2em;
+}
+
+.research-area h3 {
+    margin-bottom: 0.4em;
+}
