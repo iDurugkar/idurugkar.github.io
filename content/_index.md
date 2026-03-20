@@ -10,4 +10,4 @@ I completed my PhD at the [Learning Agents Research Group (LARG)](https://www.cs
 
 Before my PhD, I was a Master's student at [UMass Amherst](https://www.cics.umass.edu/) working with [Sridhar Mahadevan](https://people.cs.umass.edu/~mahadeva/Site/About_Me.html) on deep learning and deep RL. I've also interned at [DeepMind](https://www.deepmind.com/) (2021) with [Volodymyr Mnih](http://www.cs.toronto.edu/~vmnih/) and [Microsoft Research](https://www.microsoft.com/en-us/research/) (2018) with [Matthew Hausknecht](https://mhauskn.github.io/) and [Adith Swaminathan](https://www.microsoft.com/en-us/research/people/adswamin/).
 
-My broader research interests span multiagent RL, robotics, and sim-to-real transfer. I also help coordinate the weekly [RL Reading Group](https://www.cs.utexas.edu/~rlrg) at UT Austin.
+My broader research interests span multiagent RL, robotics, and sim-to-real transfer. I used to coordinate the weekly [RL Reading Group](https://www.cs.utexas.edu/~rlrg) at UT Austin.
