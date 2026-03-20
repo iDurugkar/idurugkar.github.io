@@ -1,0 +1,42 @@
+base_url = "https://idurugkar.github.io"
+title = "Ishan Durugkar"
+theme = "apollo"
+description = "Research Scientist at Sony AI"
+compile_sass = true
+generate_feeds = true
+build_search_index = false
+minify_html = true
+taxonomies = [{ name = "tags" }]
+
+[markdown]
+
+[markdown.highlighting]
+style = "class"
+light_theme = "github-light"
+dark_theme = "github-dark"
+
+[extra]
+toc = false
+use_cdn = false
+favicon = "/images/idurugkar.jpg"
+theme = "toggle"
+fancy_code = true
+mathjax = true
+
+menu = [
+    { name = "/publications", url = "/publications", weight = 1 },
+    { name = "/research",     url = "/research",     weight = 2 },
+    { name = "/blog",         url = "/blog",         weight = 3 },
+    { name = "/cv",           url = "/files/idurugkar_cv_2022_long.pdf", weight = 4 },
+]
+
+socials = [
+    { name = "github",         url = "https://github.com/idurugkar",                                      icon = "github" },
+    { name = "twitter",        url = "https://twitter.com/IshanDurugkar",                                  icon = "twitter" },
+    { name = "google-scholar", url = "https://scholar.google.com/citations?user=eb81CnYAAAAJ&hl=en",       icon = "google-scholar" },
+]
+
+stylesheets = ["custom.css"]
+
+[extra.analytics]
+enabled = false

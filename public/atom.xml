@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ishan Durugkar</title>
+    <subtitle>Research Scientist at Sony AI</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://idurugkar.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://idurugkar.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-02-14T00:00:00+00:00</updated>
+    <id>https://idurugkar.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>DM²: Decentralized Multi-Agent Reinforcement Learning for Distribution Matching</title>
+        <published>2023-02-14T00:00:00+00:00</published>
+        <updated>2023-02-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/dm2/"/>
+        <id>https://idurugkar.github.io/publications/dm2/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/dm2/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Wasserstein Distance Maximizing Intrinsic Control</title>
+        <published>2021-10-28T00:00:00+00:00</published>
+        <updated>2021-10-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/wic/"/>
+        <id>https://idurugkar.github.io/publications/wic/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/wic/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Adversarial Intrinsic Motivation for Reinforcement Learning</title>
+        <published>2021-10-18T00:00:00+00:00</published>
+        <updated>2021-10-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/aim/"/>
+        <id>https://idurugkar.github.io/publications/aim/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/aim/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>An Imitation from Observation Approach to Sim-to-Real Transfer</title>
+        <published>2020-11-16T00:00:00+00:00</published>
+        <updated>2020-11-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/ifo-transfer/"/>
+        <id>https://idurugkar.github.io/publications/ifo-transfer/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/ifo-transfer/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Balancing Individual Preferences and Shared Objectives in Multiagent Reinforcement Learning</title>
+        <published>2020-07-24T00:00:00+00:00</published>
+        <updated>2020-07-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/multiagent-prefs/"/>
+        <id>https://idurugkar.github.io/publications/multiagent-prefs/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/multiagent-prefs/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Reducing Sampling Error in Batch Temporal Difference Learning</title>
+        <published>2020-07-13T00:00:00+00:00</published>
+        <updated>2020-07-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/psec-td/"/>
+        <id>https://idurugkar.github.io/publications/psec-td/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/psec-td/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Go for a Walk and Arrive at the Answer: Reasoning over Paths in Knowledge Bases using Reinforcement Learning</title>
+        <published>2018-05-03T00:00:00+00:00</published>
+        <updated>2018-05-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/minerva/"/>
+        <id>https://idurugkar.github.io/publications/minerva/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/minerva/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>TD Learning with Constrained Gradients</title>
+        <published>2017-12-07T00:00:00+00:00</published>
+        <updated>2017-12-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/constrained-td/"/>
+        <id>https://idurugkar.github.io/publications/constrained-td/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/constrained-td/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generative Multi-Adversarial Networks</title>
+        <published>2017-04-24T00:00:00+00:00</published>
+        <updated>2017-04-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/gman/"/>
+        <id>https://idurugkar.github.io/publications/gman/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/gman/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Predictive Off-Policy Policy Evaluation for Nonstationary Decision Problems, with Applications to Digital Marketing</title>
+        <published>2017-02-08T00:00:00+00:00</published>
+        <updated>2017-02-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/nonstationary-ope/"/>
+        <id>https://idurugkar.github.io/publications/nonstationary-ope/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/nonstationary-ope/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Inverting Variational Autoencoders for Improved Generative Accuracy</title>
+        <published>2016-08-21T00:00:00+00:00</published>
+        <updated>2016-08-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/inverted-vae/"/>
+        <id>https://idurugkar.github.io/publications/inverted-vae/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/inverted-vae/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deep Reinforcement Learning with Macro-Actions</title>
+        <published>2016-06-15T00:00:00+00:00</published>
+        <updated>2016-06-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/macro-actions/"/>
+        <id>https://idurugkar.github.io/publications/macro-actions/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/macro-actions/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cohort Intelligence: A Self Supervised Learning Behavior</title>
+        <published>2013-10-13T00:00:00+00:00</published>
+        <updated>2013-10-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://idurugkar.github.io/publications/cohort-intelligence/"/>
+        <id>https://idurugkar.github.io/publications/cohort-intelligence/</id>
+        
+        <content type="html" xml:base="https://idurugkar.github.io/publications/cohort-intelligence/"></content>
+        
+    </entry>
+</feed>
