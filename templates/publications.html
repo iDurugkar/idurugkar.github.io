@@ -10,22 +10,45 @@
         </div>
     {% endif %}
 
+    {% set sorted_pages = section.pages | sort(attribute="date") | reverse %}
+
     <main class="pub-list">
-        {% set sorted_pages = section.pages | sort(attribute="date") | reverse %}
+        <h2>Publications</h2>
         {% for page in sorted_pages %}
-        <div class="pub-entry">
-            <div class="pub-title">
-                {% if page.extra.paperurl %}
-                    <a href="{{ page.extra.paperurl }}">{{ page.title }}</a>
-                {% else %}
-                    {{ page.title }}
+            {% if not page.extra.preprint %}
+            <div class="pub-entry">
+                <div class="pub-title">
+                    {% if page.extra.paperurl %}
+                        <a href="{{ page.extra.paperurl }}">{{ page.title }}</a>
+                    {% else %}
+                        {{ page.title }}
+                    {% endif %}
+                </div>
+                <div class="pub-meta">{{ page.extra.venue }} &middot; {{ page.date | date(format="%Y") }}</div>
+                {% if page.description %}
+                    <div class="pub-desc">{{ page.description }}</div>
                 {% endif %}
             </div>
-            <div class="pub-meta">{{ page.extra.venue }} &middot; {{ page.date | date(format="%Y") }}</div>
-            {% if page.description %}
-                <div class="pub-desc">{{ page.description }}</div>
             {% endif %}
-        </div>
+        {% endfor %}
+
+        <h2>Preprints</h2>
+        {% for page in sorted_pages %}
+            {% if page.extra.preprint %}
+            <div class="pub-entry">
+                <div class="pub-title">
+                    {% if page.extra.paperurl %}
+                        <a href="{{ page.extra.paperurl }}">{{ page.title }}</a>
+                    {% else %}
+                        {{ page.title }}
+                    {% endif %}
+                </div>
+                <div class="pub-meta">{{ page.extra.venue }} &middot; {{ page.date | date(format="%Y") }}</div>
+                {% if page.description %}
+                    <div class="pub-desc">{{ page.description }}</div>
+                {% endif %}
+            </div>
+            {% endif %}
         {% endfor %}
     </main>
 {% endblock main_content %}
