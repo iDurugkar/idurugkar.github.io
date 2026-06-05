@@ -15,7 +15,26 @@
     <main class="pub-list">
         <h2>Publications</h2>
         {% for page in sorted_pages %}
-            {% if not page.extra.preprint %}
+            {% if not page.extra.preprint and not page.extra.workshop %}
+            <div class="pub-entry">
+                <div class="pub-title">
+                    {% if page.extra.paperurl %}
+                        <a href="{{ page.extra.paperurl }}">{{ page.title }}</a>
+                    {% else %}
+                        {{ page.title }}
+                    {% endif %}
+                </div>
+                <div class="pub-meta">{{ page.extra.venue }} &middot; {{ page.date | date(format="%Y") }}</div>
+                {% if page.description %}
+                    <div class="pub-desc">{{ page.description }}</div>
+                {% endif %}
+            </div>
+            {% endif %}
+        {% endfor %}
+
+        <h2>Workshops</h2>
+        {% for page in sorted_pages %}
+            {% if page.extra.workshop %}
             <div class="pub-entry">
                 <div class="pub-title">
                     {% if page.extra.paperurl %}
