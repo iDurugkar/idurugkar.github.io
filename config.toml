@@ -27,7 +27,7 @@ menu = [
     { name = "/publications", url = "/publications", weight = 1 },
     { name = "/research",     url = "/research",     weight = 2 },
     { name = "/blog",         url = "/blog",         weight = 3 },
-    { name = "/cv",           url = "/files/idurugkar_cv_2022_long.pdf", weight = 4 },
+    { name = "/cv",           url = "/files/ishan_durugkar_cv.pdf", weight = 4 },
 ]
 
 socials = [
